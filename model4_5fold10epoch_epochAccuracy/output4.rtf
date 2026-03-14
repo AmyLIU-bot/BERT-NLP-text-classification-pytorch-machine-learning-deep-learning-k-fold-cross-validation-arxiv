@@ -1,0 +1,200 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2818
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww20020\viewh11660\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 PS C:\\Users\\jerem\\Desktop\\LRR> & C:/Python/python.exe c:/Users/jerem/Desktop/LRR/LRR4.py\
+Starting Fold 1\
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']\
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\
+C:\\Python\\lib\\site-packages\\transformers\\optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning\
+  warnings.warn(\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+C:\\Python\\lib\\site-packages\\transformers\\models\\bert\\modeling_bert.py:440: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at ..\\aten\\src\\ATen\\native\\transformers\\cuda\\sdp_utils.cpp:455.)\
+  attn_output = torch.nn.functional.scaled_dot_product_attention(\
+Fold 1; Epoch 1: Accuracy=0.9611, Precision=0.9620, Recall=0.9611, F1-Score=0.9612\
+Fold 1; Epoch 2: Accuracy=0.9556, Precision=0.9562, Recall=0.9556, F1-Score=0.9553\
+Fold 1; Epoch 3: Accuracy=0.9556, Precision=0.9566, Recall=0.9556, F1-Score=0.9557\
+Fold 1; Epoch 4: Accuracy=0.9389, Precision=0.9388, Recall=0.9389, F1-Score=0.9384\
+Fold 1; Epoch 5: Accuracy=0.9556, Precision=0.9566, Recall=0.9556, F1-Score=0.9557\
+Fold 1; Epoch 6: Accuracy=0.9556, Precision=0.9566, Recall=0.9556, F1-Score=0.9557\
+Fold 1; Epoch 7: Accuracy=0.9556, Precision=0.9566, Recall=0.9556, F1-Score=0.9557\
+Fold 1; Epoch 8: Accuracy=0.9556, Precision=0.9566, Recall=0.9556, F1-Score=0.9557\
+Fold 1; Epoch 9: Accuracy=0.9556, Precision=0.9566, Recall=0.9556, F1-Score=0.9557\
+Fold 1; Epoch 10: Accuracy=0.9556, Precision=0.9566, Recall=0.9556, F1-Score=0.9557\
+Fold 1 Final Metrics: Accuracy=0.9556, Precision=0.9566, Recall=0.9556, F1-Score=0.9557\
+Fold 1 Confusion Matrix:\
+[[59  0  1]\
+ [ 0 57  3]\
+ [ 4  0 56]]\
+Starting Fold 2\
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']\
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\
+C:\\Python\\lib\\site-packages\\transformers\\optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning\
+  warnings.warn(\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 2; Epoch 1: Accuracy=0.9556, Precision=0.9556, Recall=0.9556, F1-Score=0.9556\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 2; Epoch 2: Accuracy=0.9722, Precision=0.9729, Recall=0.9722, F1-Score=0.9722\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 2; Epoch 3: Accuracy=0.9667, Precision=0.9668, Recall=0.9667, F1-Score=0.9666\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 2; Epoch 4: Accuracy=0.9667, Precision=0.9668, Recall=0.9667, F1-Score=0.9666\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 2; Epoch 5: Accuracy=0.9556, Precision=0.9562, Recall=0.9556, F1-Score=0.9557\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 2; Epoch 6: Accuracy=0.9667, Precision=0.9666, Recall=0.9667, F1-Score=0.9666\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 2; Epoch 7: Accuracy=0.9778, Precision=0.9778, Recall=0.9778, F1-Score=0.9777\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 2; Epoch 8: Accuracy=0.9722, Precision=0.9724, Recall=0.9722, F1-Score=0.9722\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 2; Epoch 9: Accuracy=0.9722, Precision=0.9724, Recall=0.9722, F1-Score=0.9722\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 2; Epoch 10: Accuracy=0.9778, Precision=0.9784, Recall=0.9778, F1-Score=0.9778\
+Fold 2 Final Metrics: Accuracy=0.9778, Precision=0.9784, Recall=0.9778, F1-Score=0.9778\
+Fold 2 Confusion Matrix:\
+[[60  0  0]\
+ [ 0 57  3]\
+ [ 1  0 59]]\
+Starting Fold 3\
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']\
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\
+C:\\Python\\lib\\site-packages\\transformers\\optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning\
+  warnings.warn(\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 3; Epoch 1: Accuracy=0.9778, Precision=0.9782, Recall=0.9778, F1-Score=0.9779\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 3; Epoch 2: Accuracy=0.9556, Precision=0.9570, Recall=0.9556, F1-Score=0.9550\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 3; Epoch 3: Accuracy=0.9778, Precision=0.9792, Recall=0.9778, F1-Score=0.9779\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 3; Epoch 4: Accuracy=0.9722, Precision=0.9725, Recall=0.9722, F1-Score=0.9723\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 3; Epoch 5: Accuracy=0.9667, Precision=0.9666, Recall=0.9667, F1-Score=0.9666\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 3; Epoch 6: Accuracy=0.9667, Precision=0.9672, Recall=0.9667, F1-Score=0.9668\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 3; Epoch 7: Accuracy=0.9667, Precision=0.9666, Recall=0.9667, F1-Score=0.9666\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 3; Epoch 8: Accuracy=0.9667, Precision=0.9666, Recall=0.9667, F1-Score=0.9666\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 3; Epoch 9: Accuracy=0.9722, Precision=0.9721, Recall=0.9722, F1-Score=0.9721\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 3; Epoch 10: Accuracy=0.9722, Precision=0.9721, Recall=0.9722, F1-Score=0.9721\
+Fold 3 Final Metrics: Accuracy=0.9722, Precision=0.9721, Recall=0.9722, F1-Score=0.9721\
+Fold 3 Confusion Matrix:\
+[[58  0  2]\
+ [ 0 60  0]\
+ [ 2  1 57]]\
+Starting Fold 4\
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']\
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\
+C:\\Python\\lib\\site-packages\\transformers\\optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning\
+  warnings.warn(\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 4; Epoch 1: Accuracy=0.9778, Precision=0.9778, Recall=0.9778, F1-Score=0.9778\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 4; Epoch 2: Accuracy=0.9667, Precision=0.9677, Recall=0.9667, F1-Score=0.9666\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 4; Epoch 3: Accuracy=0.9722, Precision=0.9727, Recall=0.9722, F1-Score=0.9723\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 4; Epoch 4: Accuracy=0.9722, Precision=0.9724, Recall=0.9722, F1-Score=0.9723\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 4; Epoch 5: Accuracy=0.9833, Precision=0.9833, Recall=0.9833, F1-Score=0.9833\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 4; Epoch 6: Accuracy=0.9778, Precision=0.9778, Recall=0.9778, F1-Score=0.9777\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 4; Epoch 7: Accuracy=0.9778, Precision=0.9778, Recall=0.9778, F1-Score=0.9777\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 4; Epoch 8: Accuracy=0.9778, Precision=0.9778, Recall=0.9778, F1-Score=0.9777\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 4; Epoch 9: Accuracy=0.9778, Precision=0.9778, Recall=0.9778, F1-Score=0.9777\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 4; Epoch 10: Accuracy=0.9778, Precision=0.9778, Recall=0.9778, F1-Score=0.9777\
+Fold 4 Final Metrics: Accuracy=0.9778, Precision=0.9778, Recall=0.9778, F1-Score=0.9777\
+Fold 4 Confusion Matrix:\
+[[60  0  0]\
+ [ 0 58  2]\
+ [ 1  1 58]]\
+Starting Fold 5\
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']\
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\
+C:\\Python\\lib\\site-packages\\transformers\\optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning\
+  warnings.warn(\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 5; Epoch 1: Accuracy=0.9833, Precision=0.9834, Recall=0.9833, F1-Score=0.9833\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 5; Epoch 2: Accuracy=0.9833, Precision=0.9834, Recall=0.9833, F1-Score=0.9833\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 5; Epoch 3: Accuracy=0.9833, Precision=0.9834, Recall=0.9833, F1-Score=0.9833\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 5; Epoch 4: Accuracy=0.9833, Precision=0.9834, Recall=0.9833, F1-Score=0.9833\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 5; Epoch 5: Accuracy=0.9833, Precision=0.9834, Recall=0.9833, F1-Score=0.9833\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 5; Epoch 6: Accuracy=0.9833, Precision=0.9834, Recall=0.9833, F1-Score=0.9833\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).\
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}\
+Fold 5; Epoch 7: Accuracy=0.9833, Precision=0.9834, Recall=0.9833, F1-Score=0.9833\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).      \
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}   \
+Fold 5; Epoch 8: Accuracy=0.9833, Precision=0.9834, Recall=0.9833, F1-Score=0.9833\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).      \
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}   \
+Fold 5; Epoch 9: Accuracy=0.9833, Precision=0.9834, Recall=0.9833, F1-Score=0.9833\
+c:\\Users\\jerem\\Desktop\\LRR\\LRR4.py:34: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).      \
+  item = \{key: torch.tensor(val[idx]) for key, val in self.encodings.items()\}   \
+Fold 5; Epoch 10: Accuracy=0.9833, Precision=0.9834, Recall=0.9833, F1-Score=0.9833\
+Fold 5 Final Metrics: Accuracy=0.9833, Precision=0.9834, Recall=0.9833, F1-Score=0.9833\
+Fold 5 Confusion Matrix:\
+[[59  0  1]\
+ [ 0 60  0]\
+ [ 2  0 58]]\
+\
+Overall Final Metrics:\
+Accuracy: 0.9733, Precision: 0.9735, Recall: 0.9733, F1-Score: 0.9734\
+Overall Confusion Matrix:\
+[[296.   0.   4.]\
+ [  0. 292.   8.]\
+ [ 10.   2. 288.]]\
+PS C:\\Users\\jerem\\Desktop\\LRR>}
